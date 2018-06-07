@@ -23,7 +23,7 @@ public class Utiles {
 	
 	/**
 	 * 通过经纬度信息，获取json数据
-	 * @return
+	 * @return 字符串
 	 */
 	public static String getJsonByNet(double lat,double lng){
 		HttpClient client = new HttpClient();
